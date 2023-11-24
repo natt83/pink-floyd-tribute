@@ -1,0 +1,25 @@
+.scrolling-images {
+    display: flex;
+    flex-direction: column;
+    transform-style: preserve-3d;
+    animation: scroll 10s linear infinite;
+  }
+  
+  img {
+    width: 100%; /* Ajusta el ancho de la imagen según sea necesario */
+    height: auto;
+    margin-bottom: 20px; /* Espacio entre las imágenes */
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100%); /* Ajusta según el número de imágenes y su altura */
+    }
+  }
+
+  transform-style: preserve-3d;
+  animation: scroll 10s linear infinite;
+}
