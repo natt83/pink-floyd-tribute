@@ -1,36 +1,41 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif;
-  }
-  
-  .transparent-header {
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo transparente con un poco de opacidad */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-  }
-  
-  .logo-container img {
-    width: 80px; /* Ajusta el tamaño del logo según sea necesario */
-  }
-  
-  .nav-links {
-    display: flex;
-  }
-  
-  .nav-links a {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    margin: 0 10px;
-    background-color: rgba(255, 255, 255, 0.3); /* Fondo transparente con opacidad */
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .nav-links a:hover {
-    background-color: rgba(255, 255, 255, 0.5); /* Color de fondo más claro al pasar el ratón */
-  }
-  
+  margin: 0%;
+}
+header {
+  background: radial-gradient(circle, rgb(128, 65, 230), rgb(34, 138, 223));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  background-image:url("/src/assets/images/logo.png");
+  background-position: center;
+}
+.logo {
+  width: 330px;
+  height: 100px;
+  margin-left: 20%;
+}
+.barranav {
+  display: flex;
+  align-items: center;
+  height: 35vh;
+  margin-left: 15%;
+}
+ul {
+  display: inline;
+  list-style: none;
+}
+
+.navbar li {
+  display: inline;
+  align-items: center;
+  margin-right: 18px;
+}
+nav a {
+  text-decoration: underline;
+  color: rgb(179, 175, 245);
+  font-size: xx-large;
+}
