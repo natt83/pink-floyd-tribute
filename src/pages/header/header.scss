@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .transparent-header {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo transparente con un poco de opacidad */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  .logo-container img {
+    width: 80px; /* Ajusta el tamaño del logo según sea necesario */
+  }
+  
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    background-color: rgba(255, 255, 255, 0.3); /* Fondo transparente con opacidad */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.5); /* Color de fondo más claro al pasar el ratón */
+  }
+  
