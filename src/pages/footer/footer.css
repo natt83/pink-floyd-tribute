@@ -1,5 +1,9 @@
+#footer{
+    position:fixed;
+    bottom:0px;
+}
 #redes{
-    position: relative;
+    
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
@@ -7,17 +11,17 @@
     font-weight: bold;
     color: #2A4883;
     padding: 1%;
+    float: left;
 
 }
 #redes_sociales{
-    position: relative;
     width: 23%;
     float: right;
-    margin-top: -7%;
     padding: 1%;
+    margin-right: -50%;
 }
 .iconos_redes{
-    width: 12%;
+    width: 15%;
     padding: 1%;
     cursor: pointer;
 }
