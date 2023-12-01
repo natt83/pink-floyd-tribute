@@ -2,9 +2,10 @@
 
 body {
 
-	background: url(/src/assets/images/Animals1977.jpg);
+	background: url(/src/assets/images/1665878715574-noauth.jpeg);
 	background-attachment: fixed;
 	background-size:cover;
+    background-position: center;
 	margin: 0;
     
 }
@@ -31,7 +32,7 @@ body {
 }
 
 #container h2 {
-	background: url(https://static.pexels.com/photos/5782/nature-flowers-vintage-plant.jpg);
+	background: url(/src/assets/images/1665878715574-noauth.jpeg);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 	background-image: linear-gradient(to top, #1f1d20 0%, rgb(89, 41, 231) 100%); 
