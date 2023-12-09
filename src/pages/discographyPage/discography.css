@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Kulim+Park:wght@300&family=Poppins&family=Yellowtail&display=swap');
+
+body {
+    background-image: url("../../assets/images/homeBackground.jpeg");
+    background-repeat: no-repeat none;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-family: kulim park;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.p-k {
+    font-family: kulim park;
+}
