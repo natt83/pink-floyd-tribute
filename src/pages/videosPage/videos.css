@@ -1,2 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Kulim+Park:wght@300&family=Poppins&family=Yellowtail&display=swap');
 
+
+#videosYoutube {
+        background: url();
+        background-size: cover;
+        height: 100%;
+    }
+
+    #videosYoutube h2 {
+        font-size: 5rem;
+        font-family: kulim park;
+        color: white;
+    }
+    
+.carousel {
+    margin-bottom: 4rem;
+}
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+    text-shadow: 0 0 10 px #000;
+}
+
+.carouselitem {
+    height: 32rem;
+    background-color: #777;
+}
+
+.carousel-item > iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+}
