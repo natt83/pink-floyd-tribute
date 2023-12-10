@@ -10,7 +10,7 @@
     #videosYoutube h2 {
         font-size: 5rem;
         font-family: kulim park;
-        color: white;
+        color: aqua;
     }
     
 .carousel {
@@ -23,7 +23,7 @@
     text-shadow: 0 0 10 px #000;
 }
 
-.carouselitem {
+.carousel-item {
     height: 32rem;
     background-color: #777;
 }
