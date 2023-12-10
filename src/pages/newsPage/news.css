@@ -11,9 +11,10 @@ body {
     
 }
 
+
 h1 {
     font-family: kulim park;
-    color:white;
+    color: white;
     display: flex;
     justify-content: center;
 }
