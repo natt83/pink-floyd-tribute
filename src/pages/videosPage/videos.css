@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Kulim+Park:wght@300&family=Poppins&family=Yellowtail&display=swap');
 
+body {
+    background-image: url("../../assets/images/homeBackground.jpeg");
+    background-repeat: no-repeat none;
+    background-size: cover;
+    background-position: center;
+}
 
 #videosYoutube {
         background: url();
@@ -7,21 +13,23 @@
         height: 100%;
     }
 
-    #videosYoutube h2 {
-        font-size: 5rem;
+    #videosYoutube h1 {
+        
         font-family: kulim park;
-        color: aqua;
+        color: white;
+        display: flex;
+        justify-content: center;
     }
-    
+
 .carousel {
     margin-bottom: 4rem;
 }
 
-.carousel-caption {
+ .carousel-caption {
     bottom: 3rem;
     z-index: 10;
     text-shadow: 0 0 10 px #000;
-}
+} 
 
 .carousel-item {
     height: 32rem;
