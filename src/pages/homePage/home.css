@@ -1,0 +1,27 @@
+body{background-image:url(/src/assets/images/1665878715574-noauth.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bandimg{
+    width: 30%;
+    margin-left: 6%;
+}
+.black{
+    float: right;
+    width: 25%;
+    margin-right: 6%;
+    margin-top: -8%;
+}
+.bandbw{
+    float: right;
+    width: 25%;
+    margin-top: -30%;
+    margin-right: -25%;
+}
